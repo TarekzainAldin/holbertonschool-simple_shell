@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <sys/types.h> // Ajout de cet en-tête
+#include <sys/types.h>
+#include <string.h>
 
 int main(void)
 {
@@ -18,6 +19,10 @@ int main(void)
             break;
         } else if (nread == 1) {
             printf("End of file reached. Exiting...\n");
+            break;
+        } else if (strcmp(buffer, "EOD\n") == 0) {
+            // Vérifie si l'entrée est "EOD"
+            printf("Exiting...\n");
             break;
         } else {
             printf("%s", buffer);
