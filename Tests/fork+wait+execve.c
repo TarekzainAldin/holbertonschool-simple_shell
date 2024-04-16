@@ -31,13 +31,13 @@ int main(void)
 	if (child_pid == 0)
 	{
 		printf("--------------------------------\n\n");
-		printf("ID HIJO: %u\n\nID PADRE: %u\n\n", getpid(), getppid());
+		printf("ID chaild : %u\n\nID father: %u\n\n", getpid(), getppid());
 		printf("--------------------------------\n\n");
 
 	}
 	else
 	{
-		printf("%u SOY EL PADRE Y MI ID ES: %u\n", my_pid, child_pid);
+	printf("%u THEY WE ARE  %u\n", my_pid, child_pid);
 	}
 	if (execve(argv[0], argv, NULL) == -1)
 	{
