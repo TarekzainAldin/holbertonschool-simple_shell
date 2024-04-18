@@ -146,7 +146,7 @@ int main() {
 
 
 
-!(holbertonschool-simple_shell/img/image.png)
+![test](./img/image.png)
 
 
 ```
