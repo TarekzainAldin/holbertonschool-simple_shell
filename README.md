@@ -144,7 +144,7 @@ int main() {
 
 ## Screenshots
 
-![Diagramme sans nom drawio (1)](https://github.com/TarekzainAldin/holbertonschool-simple_shell/assets/120952601/67e137dd-8766-4744-a784-128dd5668008)
+![FlowChart](https://imgur.com/a/UcPlj1W)
 
 
 
