@@ -1,6 +1,6 @@
 # Simple Shell
 
-This is a simple shell implementation created by Tarek.
+This is a simple shell implementation created by Tarek and Mehdi.
 
 This project implements a basic shell program in C. It provides functionalities similar to those found in typical Unix shells, such as executing commands, handling input/output redirection, and supporting built-in commands.
 
@@ -50,7 +50,7 @@ Compile the source files using your prefered C compiler.
 Run the generated executable.
 Requirements
 This project requires a C compiler that supports the C99 standard.
-    
+
 ## How to use
 
 
@@ -59,13 +59,13 @@ Open a terminal and execute the following :
 ``./shell``
 ## Contributing
 
-Contributions are welcome! 
+Contributions are welcome!
 Feel free to submit bug reports, feature requests, or pull requests through the project repository.
 
 
 ## Features
 
-### List of features 
+### List of features
 ```
 Command execution
 Input/output redirection
@@ -74,7 +74,7 @@ Command chaining
 ```
 ## Functions
 
-### List of Functions 
+### List of Functions
 ```
 Shell Functions
 **hsh(info_t *, char ): Main function responsible for initiating the shell.
@@ -140,10 +140,18 @@ int main() {
 }
 
 ```
+```
+
+## Screenshots
+
+![FlowChart](https://private-user-images.githubusercontent.com/120952601/323577568-d04b3fbc-65cd-41a0-95c9-775c8d51fca7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM0Mzg5MjgsIm5iZiI6MTcxMzQzODYyOCwicGF0aCI6Ii8xMjA5NTI2MDEvMzIzNTc3NTY4LWQwNGIzZmJjLTY1Y2QtNDFhMC05NWM5LTc3NWM4ZDUxZmNhNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQxOFQxMTEwMjhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hOWUwNDA2MDAxNmM4ZDcxYjIwZDY0MTUzYTNlYWZlMmQ4NmZlNDQ5MjQzN2YwNTVhYzgyN2E4NWQ5MzE3NjJjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.sz1MTFnTD3L5VEDRQYb7VDsuub1fejgJRb5ZS0M9G_U)
 
 
 
 
+
+
+```
 ## Flowchart Explanation
 ```
 Initialization: The program initializes the shell environment.
@@ -163,4 +171,4 @@ End of Program Loop: When the user decides to exit the shell or an error occurs,
 End Program: The program terminates.
 This flowchart illustrates the flow of control within the simple shell program, detailing each step of the process from initialization to termination
 
-``` 
+```
