@@ -144,7 +144,7 @@ int main() {
 
 ## Screenshots
 
-![FlowChart](https://drive.google.com/file/d/18MOyw_TX9pgpmY-Fw3IBrLoSNcavYw43/view?usp=drive_link)
+![FlowChart](https://app.diagrams.net/?libs=general;flowchart#G1zW_80-P3Gf_bo13sqMJJBPL8rRw5WQv8#%7B%22pageId%22%3A%22UPExSpzsqjt-Vy4jqo1u%22%7D)
 
 
 
