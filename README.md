@@ -144,7 +144,6 @@ int main() {
 
 ## Screenshots
 
-![FlowChart](https://imgur.com/a/UcPlj1W)
 
 
 
