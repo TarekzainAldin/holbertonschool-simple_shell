@@ -140,3 +140,27 @@ int main() {
 }
 
 ```
+
+
+
+
+## Flowchart Explanation
+```
+Initialization: The program initializes the shell environment.
+Main Program Loop: The program enters the main loop to continually process user input.
+Read Input Line: It reads input from the user.
+Parse Input Line: The input line (command line) is parsed to identify individual commands and arguments.
+Check for Built-in Commands: It checks if the input corresponds to a built-in command.
+If yes, it executes the built-in command.
+If no, it proceeds to check for external commands.
+Execute Built-in Commands: If the command is built-in, the program executes it.
+Continue Program Loop: After executing the command (if it was built-in), the program continues to the next iteration of the loop.
+Check for External Commands: If the command is not built-in, the program checks if it corresponds to an external command.
+If yes, it forks a new process and executes the external command.
+Fork and Execute External Command: The program forks a new process and executes the external command in the child process.
+Continue Program Loop: After executing the external command, the program continues to the next iteration of the loop.
+End of Program Loop: When the user decides to exit the shell or an error occurs, the program exits the main loop.
+End Program: The program terminates.
+This flowchart illustrates the flow of control within the simple shell program, detailing each step of the process from initialization to termination
+
+``` 
