@@ -144,7 +144,7 @@ int main() {
 
 
 
-<img src="https://github.com/TarekzainAldin/holbertonschool-simple_shell/blob/main/img/image.png">
+<img src="https://github.com/TarekzainAldin/holbertonschool-simple_shell/blob/main/img/Flowchart.png">
 
 
 
