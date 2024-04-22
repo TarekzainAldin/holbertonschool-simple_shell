@@ -144,7 +144,7 @@ int main() {
 
 
 
-![image](https://github.com/TarekzainAldin/holbertonschool-simple_shell/assets/120952601/e160ef33-4971-414b-b6ec-d92152824ea3)
+<img src="https://github.com/TarekzainAldin/holbertonschool-simple_shell/blob/main/img/image.png">
 
 
 
