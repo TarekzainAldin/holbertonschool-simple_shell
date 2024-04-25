@@ -1,0 +1,217 @@
+.TH SHELL 1 "April 2024" "Shell 1.0" "User Commands"
+
+.SH NAME
+shell \- command interpreter
+.sp
+.SH SYNOPSIS
+.B shell
+[\fIoptions\fR]
+.sp
+.SH DESCRIPTION
+.sp
+.B shell
+is a command interpreter that provides a user-friendly interface for interacting with the system. It allows users to execute commands, run scripts, and manage the system environment.
+.sp
+.SH OPTIONS
+The following options are supported by the \fBshell\fR program:
+.sp
+.SH AVAILABLE FUNCTIONS
+.LP
+.sp
+.TP
+.B \-h, \-\-help
+Display usage information and exit.
+.sp
+.TP
+.B \-v, \-\-version
+Display version information and exit.
+.sp
+.SH USAGE
+The \fBshell\fR program can be used in interactive mode or script mode.
+
+.PP
+To launch the shell in interactive mode, simply execute the \fBshell\fR command without any arguments:
+.PP
+.B shell
+
+.B _strlen
+Returns the length of a string.
+.sp
+.TP
+.sp
+.PP
+Once launched, the shell displays a prompt where users can enter commands. Press Enter after typing a command to execute it.
+.sp
+.PP
+To run a shell script, specify the path to the script file as an argument when launching the shell:
+.PP
+.B shell \fIscript.sh\fR
+.sp
+
+.PP
+Replace \fIscript.sh\fR with the path to the shell script file.
+
+.SH COMMANDS
+The \fBshell\fR program supports various built-in commands for performing common operations. Some of the supported commands include:
+.sp
+
+.B _strcmp
+Performs lexicographic comparison of two strings.
+.sp
+.TP
+.B starts_with
+Checks if a string starts with a given substring.
+.sp
+.TP
+.B _strcat
+Concatenates two strings.
+.sp
+.TP
+.B _strcpy
+Copies a string.
+.sp
+.TP
+.B _strdup
+Duplicates a string.
+.sp
+.TP
+.B _puts
+Prints a string.
+.sp
+.TP
+.B _putchar
+Writes a character to the standard output.
+.sp
+.TP
+.B _strncpy
+Copies part of a string into another.
+.sp
+.TP
+.B _strncat
+Concatenates part of a string to another.
+.sp
+.TP
+.B _strchr
+Locates the first occurrence of a character in a string.
+.sp
+.TP
+.B _memset
+Fills memory with a constant byte.
+.sp
+.TP
+.B ffree
+Frees a string of strings.
+.sp
+.TP
+.B _realloc
+Reallocates a block of memory.
+.sp
+.TP
+.B bfree
+Frees a pointer and NULLs the address.
+.sp
+.TP
+.B Exit
+Exits the shell with a given exit status.
+.sp
+.TP
+.B cd
+Changes the current directory of the process.
+.sp
+.TP
+.B help
+Displays shell help.
+.sp
+.TP
+.B history
+Displays the history list of commands.
+.sp
+.TP
+.B unset_alias
+Removes an alias.
+.sp
+.TP
+.B set_alias
+Defines an alias.
+.sp
+.TP
+.B print_alias
+Displays an alias.
+.sp
+.TP
+.B _myalias
+Mimics the "alias" command of the shell.
+.sp
+.TP
+.B hsh
+Main shell loop.
+.sp
+.TP
+.B find_builtin
+Finds a built-in command.
+.sp
+.TP
+.B find_cmd
+Finds a command in PATH.
+.sp
+.TP
+.B fork_cmd
+Forks a process to run a command.
+.sp
+.TP
+.B is_chain
+Tests if the current character in a buffer is a chain delimiter.
+.sp
+.TP
+.B check_chain
+Checks if chaining should continue based on the last status.
+.sp
+.TP
+.B replace_alias
+Replaces aliases in a tokenized string.
+.sp
+.TP
+.B replace_vars
+Replaces variables in a tokenized string.
+.sp
+.TP
+.B env
+Display the current environment variables.
+.sp
+.TP
+.B setenv
+Set an environment variable.
+.sp
+.TP
+.B unsetenv
+Unset an environment variable.
+
+.TP
+.B replace_string
+Replaces a string.
+.sp
+.SH RETURN VALUE
+The functions return specific values depending on their behavior.
+.SH EXAMPLES
+
+
+.SH AUTHOR
+Written by Tarek Zain AlDin & Mehdi Zemihi.
+
+.SH SEE ALSO
+.BR bash (1),
+.BR sh (1),
+.BR csh (1)
+
+.SH BUGS
+Report bugs to tarek : 8683@holbertonstudents.com
+
+.SH COPYRIGHT
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+.SH NOTES
+This man page is for demonstration purposes and may not reflect the actual implementation of the \fBshell\fR program.
+
+.SH VERSION
+Shell 1.0
